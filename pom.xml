@@ -11,7 +11,7 @@
 	<groupId>tesi-ingegneria-informatica-ecampus</groupId>
 	<artifactId>customer-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>inventory-service</name>
+	<name>customer-service</name>
 	<description>Servizio per gestire le operazioni effettuate dai customers</description>
 	<properties>
 		<java.version>11</java.version>
@@ -25,7 +25,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
